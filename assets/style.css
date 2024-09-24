@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --font: "Nunito", sans-serif;
+    --cor-1: #151515;
+    --cor-2: #A91D3A;
+    --cor-3: #C73659;
+    --cor-4: #EEEEEE;
+}
+
+body {
+    min-height: 100vh;
+    background: rgb(21, 21, 21);
+    background: linear-gradient(0deg, rgba(21, 21, 21, 1) 0%, rgba(115, 115, 115, 1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: var(--font);
+    color: var(--cor-4);
+}
+
+.footer-caixa{
+    background-color: #EEEEEE;
+    position: absolute;
+    width: 100%;
+    height: 4%;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
+
+.footer-texto{
+    font-size: 20px;
+    color: var(--cor-1);
+}
