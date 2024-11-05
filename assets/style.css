@@ -40,6 +40,10 @@ body {
 
 #container{
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 3rem;
 }
 
 .cartao{
@@ -84,10 +88,12 @@ body {
 .cartao__conteudo__pergunta{
     color: var(--cor-4);
     font-weight: 900;
+    padding-top: 2vh;
 }
 
 .cartao__conteudo__resposta{
     color: var(--cor-4);
+    font-family: var(--font);
     font-weight: 700;
     font-weight: 100%;
 }
